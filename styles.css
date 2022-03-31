@@ -6,7 +6,6 @@
 
 body {
     margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column; 
     font-family: 'Roboto', sans-serif; 
@@ -20,7 +19,8 @@ body {
     align-items: center;
     padding: 0 10%;
     background-color: #1f2937;
-    color: #f9faf8
+    color: #f9faf8;
+    flex: 1;
 }
 
 .logo {
@@ -30,9 +30,10 @@ body {
 
 ul {
     display: flex;
+    flex: 1;
     list-style-type: none;
     padding: 0;
-    gap: 12px;
+    gap: 16px;
     font-size: 18px;
 }
 
@@ -46,7 +47,7 @@ a {
 .hero-container {
     display: flex;
     padding: 64px 10%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     gap: 128px;
@@ -76,13 +77,17 @@ button {
     color: #f9faf8;
     border-radius: 8px;
     width: 150px;
+    margin-top: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 8px 0;
 }
 
-.img {
+.img-container {
     display: flex;
 }
 
-img {
-    width: 300px;
-    max-height: 100px;
+.img-container > img{
+    width: 500px;
+    max-height: auto;
 }
