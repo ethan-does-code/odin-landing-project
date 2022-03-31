@@ -61,7 +61,7 @@ a {
     font-size: 18px;    
 }
 
-h1 {
+.hero-container h1 {
     margin: 0;
     font-size: 48px;
     font-weight: bolder;
@@ -87,7 +87,16 @@ button {
     display: flex;
 }
 
-.img-container > img{
+.img-container img{
     width: 500px;
     max-height: auto;
+}
+
+/*Styles for info section*/
+
+.info-container h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
 }
