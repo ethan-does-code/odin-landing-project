@@ -132,3 +132,19 @@ button {
     border-radius: 8px;
     color: #3882f6
 }
+
+/*Styles for quote section*/
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 20%;
+    background-color: #e5e7eb;
+}
+
+.quote-container p {
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+    color:#1f2937;
+}
