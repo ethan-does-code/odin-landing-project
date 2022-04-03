@@ -128,7 +128,7 @@ button {
 .empty-box {
     height: 170px;
     width: 170px;
-    border-style: dashed;
+    border-style: solid;
     border-radius: 8px;
     color: #3882f6
 }
@@ -148,3 +148,4 @@ button {
     font-size: 36px;
     color:#1f2937;
 }
+
