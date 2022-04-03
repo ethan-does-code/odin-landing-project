@@ -155,3 +155,33 @@ button {
     font-style: normal;
     font-size: 24px;
 }
+
+/*Creating call to action section*/
+
+.cta-section {
+    padding: 64px 20%;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 32px 80px;
+}
+
+.cta-container h1 {
+    color:#f9faf8;
+    margin: 0;
+}
+
+.cta-container p {
+    color:#e5e7eb;
+    marign: 0;
+}
+
+.cta-container button {
+    margin: 0;
+    border-color: #f9faf8;
+}
